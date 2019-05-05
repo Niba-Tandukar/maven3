@@ -5,6 +5,7 @@
  */
 package com.mycompany.mavenweb.configuartion;
 
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 
@@ -14,7 +15,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  */
 @Configuration 
 @EnableWebMvc
-@ComponentScan(basePackage"com.mycompany.mavenweb.configuration/")
+@ComponentScan(basePackages="com.mycompany.mavenweb/")
 public class WebMvcConfig {
     
 }
